@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    <Runtime>
+    </Runtime>
+    
+    <Extension path="/MonoDevelop/Ide/ProjectTemplateCategories/other/net">
+        <Category id="mvvmcross" name="MvvmCross"/>
+    </Extension>
+
+    <Extension path="/MonoDevelop/Ide/Templates">
+      <Template
+         id="MvvmCrossNativeSinglePage.CSharp"
+         _overrideDescription="Creates a new single page native MvvmCross app."
+         path="Templates/MvvmCross.Templates.CSharp.Native.SinglePage.Mac.1.0.0.nupkg"
+         category="other/net/mvvmcross"
+         icon="res:MVVMCross.XSAddIn.Icons.MvvmCross.png"/>
+    </Extension>
+</ExtensionModel>

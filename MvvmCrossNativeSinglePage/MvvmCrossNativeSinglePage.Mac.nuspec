@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MvvmCross.Templates.CSharp.Native.SinglePage.Mac</id>
+    <version>1.0.0</version>
+    <description>
+      Creates an example single page MvvmCross app for iOS, Android, UWP and WPF.
+    </description>
+    <authors>Jim Bennett</authors>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src=".\content\**" target="content" exclude=".\content\MvvmCrossNativeSinglePage.UWP\**;.\content\MvvmCrossNativeSinglePage.WPF\**;.\content\MVVMCross-VSAddIn\**;.\content\MvvmCrossNativeSinglePage.sln;.\content\.template.config.mac\**;.\content\.template.config\**;.\content\packages\**;.\content\.vs\**;.\content\.DS_Store"/>
+    <file src=".\content\.template.config.mac\**" target="content\.template.config"/>
+</files>
+</package>
