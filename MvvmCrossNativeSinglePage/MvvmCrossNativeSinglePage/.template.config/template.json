@@ -1,0 +1,39 @@
+{
+  "author": "Jim Bennett",
+  "classifications": [],
+  "description": "template description",
+  "name": "MvvmCross Single Page Native Application",
+  "defaultName": "MvvmCrossApplication",
+  "identity": "MvvmCrossNativeSinglePage.CSharp",
+  "groupIdentity": "MvvmCrossNativeSinglePage",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "shortName": "MvvmCrossNativeSinglePage",
+  "sourceName": "MvvmCrossNativeSinglePage",
+  "guids": [
+    "{7390BE26-4895-4BCB-8597-717E7099C32A}",
+    "{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}",
+    "{A9C6C3E3-BE00-491C-B3AE-FE6E06F7E3D7}",
+    "{C48EBFDA-18A9-4CF7-89E8-73F5DC2AAF7A}",
+    "{D218CF19-5B70-48FC-845F-1A62D307BDD6}"
+  ],
+  "primaryOutputs": [
+    {
+      "path": "MvvmCrossNativeSinglePage.Core\\MvvmCrossNativeSinglePage.Core.csproj"
+    },
+    {
+      "path": "MvvmCrossNativeSinglePage.Droid\\MvvmCrossNativeSinglePage.Droid.csproj"
+    },
+    {
+      "path": "MvvmCrossNativeSinglePage.iOS\\MvvmCrossNativeSinglePage.iOS.csproj"
+    },
+    {
+      "path": "MvvmCrossNativeSinglePage.UWP\\MvvmCrossNativeSinglePage.UWP.csproj"
+    },
+    {
+      "path": "MvvmCrossNativeSinglePage.WPF\\MvvmCrossNativeSinglePage.WPF.csproj"
+    }
+  ]
+}
