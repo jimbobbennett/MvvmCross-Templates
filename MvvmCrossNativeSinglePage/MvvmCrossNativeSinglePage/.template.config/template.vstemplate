@@ -6,7 +6,7 @@
     <TemplateID>MvvmCrossNativeSinglePage.CSharp</TemplateID>
     <DefaultName>MvvmCrossApplication</DefaultName>
     
-    <Icon>MvvmCross.png</Icon>
+    <Icon>project-icon.png</Icon>
     
     <ProjectType>CSharp</ProjectType>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
