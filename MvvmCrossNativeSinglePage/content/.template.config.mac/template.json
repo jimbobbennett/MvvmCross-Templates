@@ -20,13 +20,13 @@
   ],
   "primaryOutputs": [
     {
-      "path": "MvvmCrossNativeSinglePage.Core\\MvvmCrossNativeSinglePage.Core.csproj"
+      "path": "MvvmCrossNativeSinglePage.Core/MvvmCrossNativeSinglePage.Core.csproj"
     },
     {
-      "path": "MvvmCrossNativeSinglePage.Droid\\MvvmCrossNativeSinglePage.Droid.csproj"
+      "path": "MvvmCrossNativeSinglePage.Droid/MvvmCrossNativeSinglePage.Droid.csproj"
     },
     {
-      "path": "MvvmCrossNativeSinglePage.iOS\\MvvmCrossNativeSinglePage.iOS.csproj"
+      "path": "MvvmCrossNativeSinglePage.iOS/MvvmCrossNativeSinglePage.iOS.csproj"
     }
   ]
 }
