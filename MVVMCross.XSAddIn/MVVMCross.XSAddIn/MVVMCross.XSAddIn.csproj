@@ -23,7 +23,7 @@
       <CustomCommands>
         <Command>
           <type>BeforeBuild</type>
-          <command>mono ../nuget.exe pack ../MvvmCrossNativeSinglePage/MvvmCrossNativeSinglePage.Mac.nuspec</command>
+          <command>mono ../nuget.exe pack ../MvvmCrossNativeSinglePage.Mac.nuspec</command>
           <workingdir>${SolutionDir}</workingdir>
         </Command>
       </CustomCommands>
@@ -43,7 +43,7 @@
         </Command>
         <Command>
           <type>BeforeBuild</type>
-          <command>mono ../nuget.exe pack ../MvvmCrossNativeSinglePage/MvvmCrossNativeSinglePage.Mac.nuspec</command>
+          <command>mono ../nuget.exe pack ../MvvmCrossNativeSinglePage.Mac.nuspec</command>
           <workingdir>${SolutionDir}</workingdir>
         </Command>
       </CustomCommands>
