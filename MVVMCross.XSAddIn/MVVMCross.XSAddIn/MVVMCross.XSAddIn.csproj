@@ -34,6 +34,20 @@
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CustomCommands>
+      <CustomCommands>
+        <Command>
+          <type>AfterBuild</type>
+          <command>"/Applications/Visual Studio.app/Contents/MacOS/vstool" setup pack MVVMCross.XSAddin.dll</command>
+          <workingdir>${TargetDir}</workingdir>
+        </Command>
+        <Command>
+          <type>BeforeBuild</type>
+          <command>mono ../nuget.exe pack ../MvvmCrossNativeSinglePage/MvvmCrossNativeSinglePage.Mac.nuspec</command>
+          <workingdir>${SolutionDir}</workingdir>
+        </Command>
+      </CustomCommands>
+    </CustomCommands>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -49,10 +63,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="..\MvvmCross.Templates.CSharp.Native.SinglePage.Mac.1.0.0.nupkg">
+  </ItemGroup>
+  <ItemGroup>
+    <AddinFile Include="..\MvvmCross.Templates.CSharp.Native.SinglePage.Mac.1.0.0.nupkg">
       <Link>Templates\MvvmCross.Templates.CSharp.Native.SinglePage.Mac.1.0.0.nupkg</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </AddinFile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MonoDevelop.Addins.0.3.18\build\MonoDevelop.Addins.targets" Condition="Exists('..\packages\MonoDevelop.Addins.0.3.18\build\MonoDevelop.Addins.targets')" />
