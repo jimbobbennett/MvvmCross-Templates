@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.8
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossNativeSinglePage.Droid", "MvvmCrossNativeSinglePage.Droid\MvvmCrossNativeSinglePage.Droid.csproj", "{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossNativeSinglePage.Droid", "MvvmCrossNativeSinglePage\MvvmCrossNativeSinglePage.Droid\MvvmCrossNativeSinglePage.Droid.csproj", "{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossNativeSinglePage.Core", "MvvmCrossNativeSinglePage.Core\MvvmCrossNativeSinglePage.Core.csproj", "{7390BE26-4895-4BCB-8597-717E7099C32A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossNativeSinglePage.Core", "MvvmCrossNativeSinglePage\MvvmCrossNativeSinglePage.Core\MvvmCrossNativeSinglePage.Core.csproj", "{7390BE26-4895-4BCB-8597-717E7099C32A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossNativeSinglePage.iOS", "MvvmCrossNativeSinglePage.iOS\MvvmCrossNativeSinglePage.iOS.csproj", "{A9C6C3E3-BE00-491C-B3AE-FE6E06F7E3D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossNativeSinglePage.iOS", "MvvmCrossNativeSinglePage\MvvmCrossNativeSinglePage.iOS\MvvmCrossNativeSinglePage.iOS.csproj", "{A9C6C3E3-BE00-491C-B3AE-FE6E06F7E3D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossNativeSinglePage.UWP", "MvvmCrossNativeSinglePage.UWP\MvvmCrossNativeSinglePage.UWP.csproj", "{C48EBFDA-18A9-4CF7-89E8-73F5DC2AAF7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossNativeSinglePage.UWP", "MvvmCrossNativeSinglePage\MvvmCrossNativeSinglePage.UWP\MvvmCrossNativeSinglePage.UWP.csproj", "{C48EBFDA-18A9-4CF7-89E8-73F5DC2AAF7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossNativeSinglePage.WPF", "MvvmCrossNativeSinglePage.WPF\MvvmCrossNativeSinglePage.WPF.csproj", "{D218CF19-5B70-48FC-845F-1A62D307BDD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossNativeSinglePage.WPF", "MvvmCrossNativeSinglePage\MvvmCrossNativeSinglePage.WPF\MvvmCrossNativeSinglePage.WPF.csproj", "{D218CF19-5B70-48FC-845F-1A62D307BDD6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMCross-VSAddIn", "MVVMCross-VSAddIn\MVVMCross-VSAddIn.csproj", "{6F5F4E73-4DB4-4031-8C9B-5A6DA2BFF5FA}"
 EndProject
@@ -80,8 +80,6 @@ Global
 		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.AppStore|x86.Build.0 = Release|Any CPU
 		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.AppStore|x86.Deploy.0 = Release|Any CPU
 		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Debug|ARM.Build.0 = Debug|Any CPU
 		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Debug|ARM.Deploy.0 = Debug|Any CPU
@@ -98,8 +96,6 @@ Global
 		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Debug|x86.Build.0 = Debug|Any CPU
 		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Debug|x86.Deploy.0 = Debug|Any CPU
 		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Release|ARM.ActiveCfg = Release|Any CPU
 		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Release|ARM.Build.0 = Release|Any CPU
 		{C56E7D1B-F39A-4EBB-A3AA-7F0155D5A14F}.Release|ARM.Deploy.0 = Release|Any CPU
@@ -140,7 +136,6 @@ Global
 		{7390BE26-4895-4BCB-8597-717E7099C32A}.AppStore|x86.ActiveCfg = Release|Any CPU
 		{7390BE26-4895-4BCB-8597-717E7099C32A}.AppStore|x86.Build.0 = Release|Any CPU
 		{7390BE26-4895-4BCB-8597-717E7099C32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7390BE26-4895-4BCB-8597-717E7099C32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7390BE26-4895-4BCB-8597-717E7099C32A}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{7390BE26-4895-4BCB-8597-717E7099C32A}.Debug|ARM.Build.0 = Debug|Any CPU
 		{7390BE26-4895-4BCB-8597-717E7099C32A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
@@ -152,7 +147,6 @@ Global
 		{7390BE26-4895-4BCB-8597-717E7099C32A}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{7390BE26-4895-4BCB-8597-717E7099C32A}.Debug|x86.Build.0 = Debug|Any CPU
 		{7390BE26-4895-4BCB-8597-717E7099C32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7390BE26-4895-4BCB-8597-717E7099C32A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7390BE26-4895-4BCB-8597-717E7099C32A}.Release|ARM.ActiveCfg = Release|Any CPU
 		{7390BE26-4895-4BCB-8597-717E7099C32A}.Release|ARM.Build.0 = Release|Any CPU
 		{7390BE26-4895-4BCB-8597-717E7099C32A}.Release|iPhone.ActiveCfg = Release|Any CPU
@@ -280,7 +274,6 @@ Global
 		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.AppStore|x86.ActiveCfg = Release|Any CPU
 		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.AppStore|x86.Build.0 = Release|Any CPU
 		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.Debug|ARM.Build.0 = Debug|Any CPU
 		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.Debug|iPhone.ActiveCfg = Debug|Any CPU
@@ -292,7 +285,6 @@ Global
 		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.Debug|x86.Build.0 = Debug|Any CPU
 		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.Release|ARM.ActiveCfg = Release|Any CPU
 		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.Release|ARM.Build.0 = Release|Any CPU
 		{D218CF19-5B70-48FC-845F-1A62D307BDD6}.Release|iPhone.ActiveCfg = Release|Any CPU
