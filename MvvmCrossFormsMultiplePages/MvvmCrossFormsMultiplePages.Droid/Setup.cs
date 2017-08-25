@@ -1,37 +1,21 @@
 ﻿using Android.Content;
-using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Core.ViewModels;
+using MvvmCross.Forms.Core;
+using MvvmCross.Forms.Droid;
 using MvvmCross.Platform.Platform;
-using MvvmCross.Droid.Views;
-using MvvmCross.Forms.Droid.Presenters;
-using MvvmCross.Core.Views;
-using MvvmCross.Platform;
+using MvvmCrossFormsMultiplePages.Core;
 
 namespace MvvmCrossFormsMultiplePages.Droid
 {
-    public class Setup : MvxAppCompatSetup
+    public class Setup : MvxFormsAndroidSetup
     {
         public Setup(Context applicationContext)
             : base(applicationContext)
         {
         }
 
-        protected override IMvxApplication CreateApp()
-        {
-            return new Core.App();
-        }
-
-        protected override IMvxTrace CreateDebugTrace()
-        {
-            return new DebugTrace();
-        }
-
-        protected override IMvxAndroidViewPresenter CreateViewPresenter()
-        {
-            var presenter = new MvxFormsDroidPagePresenter();
-            Mvx.RegisterSingleton<IMvxViewPresenter>(presenter);
-
-            return presenter;
-        }
+        protected override IMvxApplication CreateApp() => new CoreApp();
+        protected override MvxFormsApplication CreateFormsApplication() => new Application();
+        protected override IMvxTrace CreateDebugTrace() => new DebugTrace();
     }
 }

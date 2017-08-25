@@ -6,7 +6,7 @@ using Xamarin.Forms;
 namespace MvvmCrossFormsMultiplePages.Droid
 {
     [Activity(
-        Label = "FormsTest4.Droid"
+        Label = "MvvmCrossFormsMultiplePages.Droid"
         , MainLauncher = true
         , Icon = "@mipmap/ic_launcher"
         , Theme = "@style/Theme.Splash"
@@ -19,14 +19,10 @@ namespace MvvmCrossFormsMultiplePages.Droid
         {
         }
 
-        bool isInitializationComplete = false;
-        public override void InitializationComplete()
+        protected override void TriggerFirstNavigate()
         {
-            if (!isInitializationComplete)
-            {
-                isInitializationComplete = true;
-                StartActivity(typeof(MvxFormsApplicationActivity));
-            }
+            StartActivity(typeof(MainActivity));
+            base.TriggerFirstNavigate();
         }
 
         protected override void OnCreate(Android.OS.Bundle bundle)

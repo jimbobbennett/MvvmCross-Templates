@@ -2,7 +2,7 @@
 
 namespace MvvmCrossFormsMultiplePages.Core
 {
-    public class App : MvvmCross.Core.ViewModels.MvxApplication
+    public class CoreApp : MvvmCross.Core.ViewModels.MvxApplication
     {
         public override void Initialize()
         {
