@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mvx:MvxContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:forms="using:Xamarin.Forms" xmlns:mvx="clr-namespace:MvvmCross.Forms.Core;assembly=MvvmCross.Forms" x:Class="MvvmCrossFormsMultiplePages.Core.Pages.FirstPage" Title="First Page">
+	<mvx:MvxContentPage.Padding Thickness="5, 0, 5, 95">
+		<OnPlatform x:TypeArguments="Thickness">
+			<On Platform="Android" Value="5, 0, 5, 0" />
+			<On Platform="iOS" Value="5, 20, 5, 0" />
+		</OnPlatform>
+	</mvx:MvxContentPage.Padding>
+	<mvx:MvxContentPage.ToolbarItems>
+		<ToolbarItem Name="Menu1" Text="About" ClassId="About" Order="Primary" Command="{Binding ShowAboutPageCommand}" />
+	</mvx:MvxContentPage.ToolbarItems>
+	<StackLayout Spacing="10" Orientation="Vertical">
+		<Label FontSize="24" Text="Enter your nickname in the box below" />
+		<Entry Placeholder="Who are you?" TextColor="Red" Text="{Binding YourNickname}" />
+		<Label FontSize="24" Text="{Binding Hello}" />
+	</StackLayout>
+</mvx:MvxContentPage>

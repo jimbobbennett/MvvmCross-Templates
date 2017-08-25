@@ -26,6 +26,11 @@
           <command>mono ../nuget.exe pack ../MvvmCrossNativeSinglePage.Mac.nuspec</command>
           <workingdir>${SolutionDir}</workingdir>
         </Command>
+        <Command>
+          <type>BeforeBuild</type>
+          <command>mono ../nuget.exe pack ../MvvmCrossFormsMultiplePages.Mac.nuspec</command>
+          <workingdir>${SolutionDir}</workingdir>
+        </Command>
       </CustomCommands>
     </CustomCommands>
   </PropertyGroup>
@@ -44,6 +49,11 @@
         <Command>
           <type>BeforeBuild</type>
           <command>mono ../nuget.exe pack ../MvvmCrossNativeSinglePage.Mac.nuspec</command>
+          <workingdir>${SolutionDir}</workingdir>
+        </Command>
+        <Command>
+          <type>BeforeBuild</type>
+          <command>mono ../nuget.exe pack ../MvvmCrossFormsMultiplePages.Mac.nuspec</command>
           <workingdir>${SolutionDir}</workingdir>
         </Command>
       </CustomCommands>

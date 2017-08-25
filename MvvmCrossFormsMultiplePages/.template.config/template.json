@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Jim Bennett",
+  "classifications": [],
+  "description": "Creates a new multi-page Xamarin Forms MvvmCross app.",
+  "name": "MvvmCross Multi-Page Forms Application",
+  "defaultName": "MvvmCrossFormsApplication",
+  "identity": "MvvmCrossFormsMultiplePages.CSharp",
+  "groupIdentity": "MvvmCrossFormsMultiplePages",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "shortName": "MvvmCrossFormsMultiplePages",
+  "sourceName": "MvvmCrossFormsMultiplePages",
+  "guids": [
+    "{73CE8362-C0D9-4B67-949C-DCED3170F9F0}",
+    "{B6C5390E-5A31-44F1-90F2-A024A38A6865}",
+    "{606527C2-A89E-4386-ABFC-74FEAF4C52FE}"
+  ],
+  "primaryOutputs": [
+    {
+      "path": "MvvmCrossFormsMultiplePages.Core.csproj"
+    },    
+    {
+      "path": "MvvmCrossFormsMultiplePages.Droid.csproj"
+    },
+    {
+      "path": "MvvmCrossFormsMultiplePages.iOS.csproj"
+    }
+  ]
+}
