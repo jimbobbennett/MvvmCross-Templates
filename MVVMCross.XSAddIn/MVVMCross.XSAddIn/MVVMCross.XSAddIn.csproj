@@ -79,6 +79,10 @@
       <Link>Templates\MvvmCross.Templates.CSharp.Native.SinglePage.Mac.1.0.0.nupkg</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
+    <AddinFile Include="..\MvvmCross.Templates.CSharp.Forms.MultiplePages.Mac.1.0.0.nupkg">
+      <Link>Templates\MvvmCross.Templates.CSharp.Forms.MultiplePages.Mac.1.0.0.nupkg</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MonoDevelop.Addins.0.3.18\build\MonoDevelop.Addins.targets" Condition="Exists('..\packages\MonoDevelop.Addins.0.3.18\build\MonoDevelop.Addins.targets')" />
