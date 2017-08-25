@@ -12,6 +12,6 @@
     </packageTypes>
   </metadata>
   <files>
-    <file src=".\MvvmCrossFormsMultiplePages\**" target="content" exclude=".\MvvmCrossFormsMultiplePages\packages\**;**\bin\**;**\obj\**;"/>
+    <file src=".\MvvmCrossFormsMultiplePages\**" target="content" exclude=".\MvvmCrossFormsMultiplePages\packages\**;.\**\bin\**;.\**\obj\**;.\**\packages\**"/>
 </files>
 </package>
