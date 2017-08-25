@@ -124,7 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MvvmCrossNativeSinglePage.Core\MvvmCrossNativeSinglePage.Core.csproj">
-      <Project>{31d7792c-8339-4c32-8c91-123c9b248b83}</Project>
+      <Project>{7390BE26-4895-4BCB-8597-717E7099C32A}</Project>
       <Name>MvvmCrossNativeSinglePage.Core</Name>
     </ProjectReference>
   </ItemGroup>
