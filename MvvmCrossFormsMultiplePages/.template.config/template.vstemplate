@@ -1,8 +1,8 @@
 
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
   <TemplateData>
-    <Name></Name>
-    <Description>template description</Description>
+    <Name>MvvmCross Multi-Page Xamarin Forms Application</Name>
+    <Description>A multi-page MvvmCross Xamarin Forms cross-platform app</Description>
     <TemplateID>MvvmCrossFormsMultiplePages.CSharp</TemplateID>
     <DefaultName>MvvmCrossFormsApplication</DefaultName>
     
@@ -22,7 +22,7 @@
       <CustomParameter Name = "$language$" Value="CSharp" />
       <CustomParameter Name = "$uistyle$" Value="none"/>
       <CustomParameter Name = "$groupid$" Value="MvvmCrossFormsMultiplePages" />
-      <CustomParameter Name = "SideWaffleNewProjNode" Value="CSharp\Web\SideWaffle"/>
+      <CustomParameter Name = "SideWaffleNewProjNode" Value="CSharp\MvvmCross"/>
     </CustomParameters>
   </TemplateContent>
   <WizardExtension>
