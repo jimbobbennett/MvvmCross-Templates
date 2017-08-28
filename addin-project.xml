@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<AddinProject appVersion="7.0">
+	<Project platforms="Mac">
+		<AddinFile>MVVMCross.XSAddIn/MVVMCross.XSAddIn/bin/Release/MVVMCross.XSAddIn.dll</AddinFile>
+		<BuildFile>MVVMCross.XSAddIn/MVVMCross.XSAddIn.sln</BuildFile>
+		<BuildConfiguration>Release</BuildConfiguration>
+	</Project>
+</AddinProject>
