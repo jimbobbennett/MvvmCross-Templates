@@ -13,6 +13,6 @@
   </metadata>
   <files>
     <file src=".\MvvmCrossNativeSinglePage\**" target="content" exclude=".\MvvmCrossNativeSinglePage\MvvmCrossNativeSinglePage.UWP\**;.\MvvmCrossNativeSinglePage\MvvmCrossNativeSinglePage.WPF\**;.\MvvmCrossNativeSinglePage\MvvmCrossNativeSinglePage.sln;.\MvvmCrossNativeSinglePage\packages\**;.\MvvmCrossNativeSinglePage\.template.config\template.json;**\bin\**;**\obj\**;"/>
-    <file src=".\MVVMCross.XSAddIn\template.json" target="content\.template.config\template.json"/>
+    <file src=".\MVVMCross.XSAddIn\MvvmCrossNativeSinglePage.template.json" target="content\.template.config\template.json"/>
 </files>
 </package>

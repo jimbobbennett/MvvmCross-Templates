@@ -20,13 +20,13 @@
   ],
   "primaryOutputs": [
     {
-      "path": "MvvmCrossFormsMultiplePages.Core\\MvvmCrossFormsMultiplePages.Core.csproj"
+      "path": "MvvmCrossFormsMultiplePages.Core/MvvmCrossFormsMultiplePages.Core.csproj"
     },    
     {
-      "path": "MvvmCrossFormsMultiplePages.Droid\\MvvmCrossFormsMultiplePages.Droid.csproj"
+      "path": "MvvmCrossFormsMultiplePages.Droid/MvvmCrossFormsMultiplePages.Droid.csproj"
     },
     {
-      "path": "MvvmCrossFormsMultiplePages.iOS\\MvvmCrossFormsMultiplePages.iOS.csproj"
+      "path": "MvvmCrossFormsMultiplePages.iOS/MvvmCrossFormsMultiplePages.iOS.csproj"
     }
   ]
 }
