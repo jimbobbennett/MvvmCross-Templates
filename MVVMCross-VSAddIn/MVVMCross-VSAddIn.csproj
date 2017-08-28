@@ -57,6 +57,10 @@
     <None Include="template\templatepack.proj" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="license.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Properties\project-icon.png" />
     <Content Include="stylesheet.css" />
     <Content Include="template.pkgdef">
