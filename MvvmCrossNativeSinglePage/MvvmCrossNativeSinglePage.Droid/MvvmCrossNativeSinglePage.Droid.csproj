@@ -50,18 +50,18 @@
     <PackageReference Include="MvvmCross.Droid.Support.Fragment" Version="5.1.1" />
     <PackageReference Include="MvvmCross.Droid.Support.V7.AppCompat" Version="5.1.1" />
     <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView" Version="5.1.1" />
-	  <PackageReference Include="Xamarin.Android.Support.Animated.Vector.Drawable" Version="25.4.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.Annotations" Version="25.4.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.Compat" Version="25.4.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.Core.UI" Version="25.4.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="25.4.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="25.4.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.Fragment" Version="25.4.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.Media.Compat" Version="25.4.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.Transition" Version="25.4.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="25.4.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView" Version="25.4.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.Vector.Drawable" Version="25.4.0.1" />
+	  <PackageReference Include="Xamarin.Android.Support.Animated.Vector.Drawable" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.Annotations" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.Compat" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.Core.UI" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.Fragment" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.Media.Compat" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.Transition" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.Vector.Drawable" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Build.Download" Version="0.4.7" />
   </ItemGroup>
   <ItemGroup>

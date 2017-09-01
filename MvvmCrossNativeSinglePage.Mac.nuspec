@@ -12,7 +12,7 @@
     </packageTypes>
   </metadata>
   <files>
-    <file src=".\MvvmCrossNativeSinglePage\**" target="content" exclude=".\MvvmCrossNativeSinglePage\packages\**;.\MvvmCrossNativeSinglePage\.template.config\template.json;**\bin\**;**\obj\**;**\.vs\**;**\*.user;**\*.sln;"/>
+    <file src=".\MvvmCrossNativeSinglePage\**" target="content" exclude=".\MvvmCrossNativeSinglePage\packages\**;.\MvvmCrossNativeSinglePage\*.UWP\**;.\MvvmCrossNativeSinglePage\*.WPF\**;.\MvvmCrossNativeSinglePage\.template.config\template.json;**\bin\**;**\obj\**;**\.vs\**;**\*.user;**\*.sln;"/>
     <file src=".\MVVMCross.XSAddIn\MvvmCrossNativeSinglePage.template.json" target="content\.template.config\template.json"/>
 </files>
 </package>
