@@ -1,11 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossFormsMultiplePages.Core", "MvvmCrossFormsMultiplePages.Core\MvvmCrossFormsMultiplePages.Core.csproj", "{73CE8362-C0D9-4B67-949C-DCED3170F9F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossFormsMultiplePages.Core", "MvvmCrossFormsMultiplePages\MvvmCrossFormsMultiplePages.Core\MvvmCrossFormsMultiplePages.Core.csproj", "{73CE8362-C0D9-4B67-949C-DCED3170F9F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossFormsMultiplePages.Droid", "MvvmCrossFormsMultiplePages.Droid\MvvmCrossFormsMultiplePages.Droid.csproj", "{B6C5390E-5A31-44F1-90F2-A024A38A6865}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossFormsMultiplePages.Droid", "MvvmCrossFormsMultiplePages\MvvmCrossFormsMultiplePages.Droid\MvvmCrossFormsMultiplePages.Droid.csproj", "{B6C5390E-5A31-44F1-90F2-A024A38A6865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossFormsMultiplePages.iOS", "MvvmCrossFormsMultiplePages.iOS\MvvmCrossFormsMultiplePages.iOS.csproj", "{606527C2-A89E-4386-ABFC-74FEAF4C52FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossFormsMultiplePages.iOS", "MvvmCrossFormsMultiplePages\MvvmCrossFormsMultiplePages.iOS\MvvmCrossFormsMultiplePages.iOS.csproj", "{606527C2-A89E-4386-ABFC-74FEAF4C52FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

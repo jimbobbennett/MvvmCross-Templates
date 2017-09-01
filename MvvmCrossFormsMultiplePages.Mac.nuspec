@@ -12,7 +12,7 @@
     </packageTypes>
   </metadata>
   <files>
-    <file src=".\MvvmCrossFormsMultiplePages\**" target="content" exclude=".\MvvmCrossFormsMultiplePages\packages\**;.\**\bin\**;.\**\obj\**;.\**\packages\**;.\MvvmCrossFormsMultiplePages\.template.config\template.json;**\*.user;**\*.sln;"/>
+    <file src=".\MvvmCrossFormsMultiplePages\**" target="content" exclude=".\MvvmCrossFormsMultiplePages\packages\**;.\**\bin\**;.\**\obj\**;**\.vs\**;.\**\packages\**;.\MvvmCrossFormsMultiplePages\.template.config\template.json;**\*.user;**\*.sln;"/>
     <file src=".\MVVMCross.XSAddIn\MvvmCrossFormsMultiplePages.template.json" target="content\.template.config\template.json"/>
 </files>
 </package>

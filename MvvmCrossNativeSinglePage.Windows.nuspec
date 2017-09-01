@@ -12,6 +12,6 @@
     </packageTypes>
   </metadata>
   <files>
-    <file src=".\MvvmCrossNativeSinglePage\**" target="content" exclude=".\MvvmCrossNativeSinglePage\packages\**;**\bin\**;**\obj\**;**\*.user;"/>
+    <file src=".\MvvmCrossNativeSinglePage.Windows\**" target="content" exclude=".\**\packages\**;**\bin\**;**\obj\**;**\.vs\**;**\*.user;"/>
 </files>
 </package>
