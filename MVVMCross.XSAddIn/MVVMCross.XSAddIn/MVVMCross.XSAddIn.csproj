@@ -23,13 +23,9 @@
       <CustomCommands>
         <Command>
           <type>BeforeBuild</type>
-          <command>mono ../nuget.exe pack ../MvvmCrossNativeSinglePage.Mac.nuspec</command>
-          <workingdir>${SolutionDir}</workingdir>
-        </Command>
-        <Command>
-          <type>BeforeBuild</type>
-          <command>mono ../nuget.exe pack ../MvvmCrossFormsMultiplePages.Mac.nuspec</command>
-          <workingdir>${SolutionDir}</workingdir>
+          <command>./CreateNugets.sh</command>
+          <workingdir>${SolutionDir}/..</workingdir>
+          <externalConsole>True</externalConsole>
         </Command>
       </CustomCommands>
     </CustomCommands>
@@ -48,13 +44,9 @@
         </Command>
         <Command>
           <type>BeforeBuild</type>
-          <command>mono ../nuget.exe pack ../MvvmCrossNativeSinglePage.Mac.nuspec</command>
-          <workingdir>${SolutionDir}</workingdir>
-        </Command>
-        <Command>
-          <type>BeforeBuild</type>
-          <command>mono ../nuget.exe pack ../MvvmCrossFormsMultiplePages.Mac.nuspec</command>
-          <workingdir>${SolutionDir}</workingdir>
+          <command>./CreateNugets.sh</command>
+          <workingdir>${SolutionDir}/..</workingdir>
+          <externalConsole>True</externalConsole>
         </Command>
       </CustomCommands>
     </CustomCommands>
@@ -75,12 +67,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <AddinFile Include="..\MvvmCross.Templates.CSharp.Native.SinglePage.Mac.1.0.0.nupkg">
-      <Link>Templates\MvvmCross.Templates.CSharp.Native.SinglePage.Mac.1.0.0.nupkg</Link>
+    <AddinFile Include="..\..\MvvmCross.Templates.CSharp.Native.SinglePage.iOS.Android.nupkg">
+      <Link>Templates\MvvmCross.Templates.CSharp.Native.SinglePage.iOS.Android.nupkg</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
-    <AddinFile Include="..\MvvmCross.Templates.CSharp.Forms.MultiplePages.Mac.1.0.0.nupkg">
-      <Link>Templates\MvvmCross.Templates.CSharp.Forms.MultiplePages.Mac.1.0.0.nupkg</Link>
+    <AddinFile Include="..\..\MvvmCross.Templates.CSharp.Forms.MultiplePages.iOS.Android.nupkg">
+      <Link>Templates\MvvmCross.Templates.CSharp.Forms.MultiplePages.iOS.Android.nupkg</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
   </ItemGroup>

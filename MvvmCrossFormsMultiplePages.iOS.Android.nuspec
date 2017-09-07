@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>MvvmCross.Templates.CSharp.Forms.MultiplePages.Mac</id>
+    <id>MvvmCross.Templates.CSharp.Forms.MultiplePages.iOS.Android</id>
     <version>1.0.0</version>
     <description>
       Creates an example multiple page MvvmCross Xamarin Forms app for iOS and Android.

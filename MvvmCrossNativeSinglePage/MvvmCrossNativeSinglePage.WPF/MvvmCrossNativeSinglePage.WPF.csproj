@@ -45,6 +45,7 @@
     <PackageReference Include="MvvmCross.Core" Version="5.1.1" />
     <PackageReference Include="MvvmCross.Platform" Version="5.1.1" />
   </ItemGroup>
+  <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />

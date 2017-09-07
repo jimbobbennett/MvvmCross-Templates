@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>MvvmCross.Templates.CSharp.Native.SinglePage.Windows</id>
+    <id>MvvmCross.Templates.CSharp.Native.SinglePage.iOS.Android.Windows</id>
     <version>1.0.0</version>
     <description>
       Creates an example single page MvvmCross app for iOS, Android, UWP and WPF.

@@ -13,15 +13,33 @@
     <PackageReference Include="MvvmCross.Core" Version="5.1.1" />
     <PackageReference Include="MvvmCross.Forms" Version="5.1.1" />
     <PackageReference Include="MvvmCross.Platform" Version="5.1.1" />
-    <PackageReference Include="Xamarin.Forms" Version="2.3.4.267" />
+    <PackageReference Include="Xamarin.Forms" Version="2.3.4.270" />
   </ItemGroup>
 
   <ItemGroup>
     <!-- https://bugzilla.xamarin.com/show_bug.cgi?id=55591 -->
     <None Remove="**\*.xaml" />
 
-    <Compile Update="**\*.xaml.cs" DependentUpon="%(Filename)" />
-    <EmbeddedResource Include="**\*.xaml" SubType="Designer" Generator="MSBuild:UpdateDesignTimeXaml" />
+    <EmbeddedResource Include="Pages\AboutPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <Compile Update="Pages\AboutPage.xaml.cs">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+    </Compile>
+        
+    <EmbeddedResource Include="Pages\FirstPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <Compile Update="Pages\FirstPage.xaml.cs">
+      <DependentUpon>FirstPage.xaml</DependentUpon>
+    </Compile>
+        
+    <EmbeddedResource Include="Application.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <Compile Update="Application.xaml.cs">
+      <DependentUpon>Application.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 	
 </Project>
