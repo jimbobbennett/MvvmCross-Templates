@@ -59,6 +59,7 @@
     <PackageReference Include="Xamarin.Android.Support.Fragment" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.Media.Compat" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.Transition" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.v4" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.Vector.Drawable" Version="25.4.0.2" />

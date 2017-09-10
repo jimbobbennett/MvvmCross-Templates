@@ -14,11 +14,11 @@
          path="Templates/MvvmCross.Templates.CSharp.Native.SinglePage.iOS.Android.nupkg"
          category="other/net/mvvmcross"
          icon="res:MVVMCross.XSAddIn.Icons.MvvmCross.png"/>
-     <!-- <Template
+      <Template
          id="MvvmCrossFormsMultiplePages.CSharp"
          _overrideDescription="Creates a new multi-page Xamarin Forms MvvmCross app."
          path="Templates/MvvmCross.Templates.CSharp.Forms.MultiplePages.iOS.Android.nupkg"
          category="other/net/mvvmcross"
-         icon="res:MVVMCross.XSAddIn.Icons.MvvmCross.png"/>-->
+         icon="res:MVVMCross.XSAddIn.Icons.MvvmCross.png"/>
     </Extension>
 </ExtensionModel>
