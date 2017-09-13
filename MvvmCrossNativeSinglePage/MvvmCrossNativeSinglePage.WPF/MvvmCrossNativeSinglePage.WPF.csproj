@@ -40,10 +40,10 @@
     <ApplicationIcon>MvvmCross.ico</ApplicationIcon>
   </PropertyGroup>  
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Binding" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Core" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Platform" Version="5.1.1" />
+    <PackageReference Include="MvvmCross" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Binding" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Core" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Platform" Version="5.2.0" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

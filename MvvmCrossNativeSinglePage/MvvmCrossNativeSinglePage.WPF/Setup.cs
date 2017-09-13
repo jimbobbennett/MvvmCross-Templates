@@ -2,7 +2,7 @@ using System.Windows.Threading;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
 using MvvmCross.Wpf.Platform;
-using MvvmCross.Wpf.Views;
+using MvvmCross.Wpf.Views.Presenters;
 
 namespace MvvmCrossNativeSinglePage.WPF
 {

@@ -81,11 +81,11 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Binding" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Core" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Forms" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Platform" Version="5.1.1" />
+    <PackageReference Include="MvvmCross" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Binding" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Core" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Forms" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Platform" Version="5.2.0" />
     <PackageReference Include="Xamarin.Forms" Version="2.3.4.270" />
   </ItemGroup>
   <ItemGroup>

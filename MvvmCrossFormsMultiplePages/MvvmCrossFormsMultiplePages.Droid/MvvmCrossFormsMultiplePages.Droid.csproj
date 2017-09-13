@@ -40,16 +40,15 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Binding" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Core" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Platform" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Droid.Shared" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Droid.Support.Core.UI" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Droid.Support.Fragment" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Droid.Support.V7.AppCompat" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView" Version="5.1.1" />
-    <PackageReference Include="MvvmCross.Forms" Version="5.1.1" />
+    <PackageReference Include="MvvmCross" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Binding" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Core" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Platform" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Droid.Support.Core.UI" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Droid.Support.Fragment" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Droid.Support.V7.AppCompat" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView" Version="5.2.0" />
+    <PackageReference Include="MvvmCross.Forms" Version="5.2.0" />
     <PackageReference Include="Xamarin.Android.Support.Animated.Vector.Drawable" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.Annotations" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.Compat" Version="25.4.0.2" />
