@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--/-:cnd -->
-<Project DefaultTargets="Build" ToolsVersion="15.0" 
-  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -41,15 +40,15 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Binding" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Core" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Platform" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Droid.Support.Core.UI" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Droid.Support.Fragment" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Droid.Support.V7.AppCompat" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Forms" Version="5.2.0" />
+    <PackageReference Include="MvvmCross" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Binding" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Core" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Platform" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Droid.Support.Core.UI" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Droid.Support.Fragment" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Droid.Support.V7.AppCompat" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Forms" Version="5.2.1" />
     <PackageReference Include="Xamarin.Android.Support.Animated.Vector.Drawable" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.Annotations" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.Compat" Version="25.4.0.2" />
@@ -111,7 +110,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
-    <None Include="packages.config" />
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>

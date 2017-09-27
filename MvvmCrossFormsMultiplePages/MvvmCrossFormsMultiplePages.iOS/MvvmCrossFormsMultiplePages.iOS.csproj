@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--/-:cnd -->
-<Project DefaultTargets="Build" ToolsVersion="15.0" 
-  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
@@ -81,11 +80,11 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Binding" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Core" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Forms" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Platform" Version="5.2.0" />
+    <PackageReference Include="MvvmCross" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Binding" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Core" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Forms" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Platform" Version="5.2.1" />
     <PackageReference Include="Xamarin.Forms" Version="2.3.4.270" />
   </ItemGroup>
   <ItemGroup>
@@ -108,7 +107,6 @@
   <ItemGroup>
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">

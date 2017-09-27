@@ -38,12 +38,12 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>MvvmCross.ico</ApplicationIcon>
-  </PropertyGroup>  
+  </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Binding" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Core" Version="5.2.0" />
-    <PackageReference Include="MvvmCross.Platform" Version="5.2.0" />
+    <PackageReference Include="MvvmCross" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Binding" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Core" Version="5.2.1" />
+    <PackageReference Include="MvvmCross.Platform" Version="5.2.1" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
