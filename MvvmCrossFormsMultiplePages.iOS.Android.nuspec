@@ -10,6 +10,11 @@
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
+    <title>MvvmCross templates - multiple page Xamarin Forms app (iOS, Android, UWP, WPF)</title>
+    <summary>This package is used by dotnet new to create a new MvvmCross multiple page Forms app for iOS and Android.</summary>
+    <projectUrl>https://github.com/jimbobbennett/MvvmCross-Templates</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/jimbobbennett/MvvmCross-Templates/master/MvvmCrossFormsMultiplePages/.template.config/project-icon.png</iconUrl>
+    <tags>MvvmCross template Xamarin forms iOS Android</tags>
   </metadata>
   <files>
     <file src=".\MvvmCrossFormsMultiplePages\**" target="content" exclude=".\MvvmCrossFormsMultiplePages\packages\**;.\**\bin\**;.\**\obj\**;**\.vs\**;.\**\packages\**;.\MvvmCrossFormsMultiplePages\.template.config\template.json;**\*.user;"/>

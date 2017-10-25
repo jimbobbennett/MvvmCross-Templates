@@ -10,6 +10,11 @@
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
+    <title>MvvmCross templates - native, single page Xamarin app (iOS, Android, UWP, WPF)</title>
+    <summary>This package is used by dotnet new to create a new MvvmCross single page native app for iOS, Android, UWP and WPF.</summary>
+    <projectUrl>https://github.com/jimbobbennett/MvvmCross-Templates</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/jimbobbennett/MvvmCross-Templates/master/MvvmCrossFormsMultiplePages/.template.config/project-icon.png</iconUrl>
+    <tags>MvvmCross template Xamarin native iOS Android UWP WPF</tags>
   </metadata>
   <files>
     <file src=".\MvvmCrossNativeSinglePage\**" target="content" exclude=".\**\packages\**;**\bin\**;**\obj\**;**\.vs\**;**\*.user;"/>

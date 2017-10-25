@@ -4,12 +4,17 @@
     <id>MvvmCross.Templates.CSharp.Native.SinglePage.iOS.Android</id>
     <version>1.0.1</version>
     <description>
-      Creates an example single page MvvmCross app for iOS, Android, UWP and WPF.
+      Creates an example single page MvvmCross app for iOS and Android.
     </description>
     <authors>Jim Bennett</authors>
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
+    <title>MvvmCross templates - native, single page Xamarin app (iOS, Android)</title>
+    <summary>This package is used by dotnet new to create a new MvvmCross single page native app for iOS and Android.</summary>
+    <projectUrl>https://github.com/jimbobbennett/MvvmCross-Templates</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/jimbobbennett/MvvmCross-Templates/master/MvvmCrossFormsMultiplePages/.template.config/project-icon.png</iconUrl>
+    <tags>MvvmCross template Xamarin native iOS Android</tags>
   </metadata>
   <files>
     <file src=".\MvvmCrossNativeSinglePage\**" target="content" exclude=".\MvvmCrossNativeSinglePage\packages\**;.\MvvmCrossNativeSinglePage\*.UWP\**;.\MvvmCrossNativeSinglePage\*.WPF\**;.\MvvmCrossNativeSinglePage\.template.config\template.json;**\bin\**;**\obj\**;**\.vs\**;**\*.user;"/>
