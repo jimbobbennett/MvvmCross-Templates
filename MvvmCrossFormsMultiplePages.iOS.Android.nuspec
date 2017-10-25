@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>MvvmCross.Templates.CSharp.Forms.MultiplePages.iOS.Android</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>
       Creates an example multiple page MvvmCross Xamarin Forms app for iOS and Android.
     </description>
@@ -12,7 +12,7 @@
     </packageTypes>
   </metadata>
   <files>
-    <file src=".\MvvmCrossFormsMultiplePages\**" target="content" exclude=".\MvvmCrossFormsMultiplePages\packages\**;.\**\bin\**;.\**\obj\**;**\.vs\**;.\**\packages\**;.\MvvmCrossFormsMultiplePages\.template.config\template.json;**\*.user;**\*.sln;"/>
+    <file src=".\MvvmCrossFormsMultiplePages\**" target="content" exclude=".\MvvmCrossFormsMultiplePages\packages\**;.\**\bin\**;.\**\obj\**;**\.vs\**;.\**\packages\**;.\MvvmCrossFormsMultiplePages\.template.config\template.json;**\*.user;"/>
     <file src=".\MVVMCross.XSAddIn\MvvmCrossFormsMultiplePages.template.json" target="content\.template.config\template.json"/>
 </files>
 </package>
