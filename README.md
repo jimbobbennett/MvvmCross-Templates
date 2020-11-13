@@ -3,7 +3,7 @@ Extensions with .NET Standard MvvmCross solution templates for Visual Studio 201
 
 ### Visual Studio 2017
 
-The solution for a VS 2017 extension is in .MVVMCross-VSAddIn.sln. To build this you will need the Side Waffle Creator extension installed (https://marketplace.visualstudio.com/items?itemName=Sayed-Ibrahim-Hashimi.SidewaffleCreator2017).
+The solution for a VS 2017 extension is in .MVVMCross-VSAddIn.sln. To build this you will need the Side Waffle Creator extension installed (https://marketplace.visualstudio.com/items?itemName=Sayed-Ibrahim-Hashimi.SidewaffleCreator2017&WT.mc_id=academic-0000-jabenn).
 
 ### Visual Studio for Mac
 
